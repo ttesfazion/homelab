@@ -16,4 +16,14 @@ This project is dedicated to documenting my homelab. This project is still a wor
 
 4. Cisco 2960 Switch
 
+## 🐳 Docker Containers (WIP)
 
+| Container    | Description                                             |
+|-----------------------|----------------------------------------------------------|
+| **Portainer**          | Web UI for managing Docker containers and stacks        |
+| **Nginx Proxy Manager**| Reverse proxy with SSL support and simple UI            |
+| **Uptime Kuma**        | Web monitoring and uptime tracking tool                 |
+| **Homarr**             | Dashboard to organize and access homelab services       |
+| **Pi-hole**            | Network-wide DNS filtering and ad blocking              |
+| **Jenkins**            | CI/CD server for building and deploying applications    |
+| **Watchtower**         | Automated updates for Docker containers                 |
