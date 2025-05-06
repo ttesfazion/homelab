@@ -18,8 +18,9 @@ This project is dedicated to documenting my homelab. This project is still a wor
 
 ## 🐳 Docker Containers (WIP)
 
-| Container    | Description                                             |
-|-----------------------|----------------------------------------------------------|
+| Container              | Description                                             |
+|----------------------- |---------------------------------------------------------|
+| **Authentik**          | Identity provider for SSO                               |
 | **Portainer**          | Web UI for managing Docker containers and stacks        |
 | **Nginx Proxy Manager**| Reverse proxy with SSL support and simple UI            |
 | **Uptime Kuma**        | Web monitoring and uptime tracking tool                 |
