@@ -17,11 +17,11 @@ This page lists the core services running in my self-hosted homelab environment.
 
 ---
 
-## 📌 Usage Tips
+## 📌 Usage
 
 - Use **Authentik** to integrate SSO with apps like Portainer, Uptime Kuma, and Code-Server.
 - Secure your external access using **Nginx Proxy Manager** with SSL certificates via Let's Encrypt.
 - Keep everything up-to-date with **Watchtower**, but monitor for breaking changes in container images.
-- Pair **Ntfy** with your scripts or services (like Jenkins or Uptime Kuma) to get real-time alerts.
+- Pair **Ntfy** with your scripts and/or services to get real-time alerts.
 
 ---
