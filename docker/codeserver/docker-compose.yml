@@ -1,0 +1,22 @@
+services:
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: code-server
+    env_file:
+      - .env
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America_New_York
+      #- PASSWORD=password #optional - adding later
+      #- HASHED_PASSWORD= #optional  - adding later
+      #- SUDO_PASSWORD=password #optional - adding later
+      #- SUDO_PASSWORD_HASH= #optional - adding later
+      - PROXY_DOMAIN= ${PROXY_DOMAIN}
+      - DEFAULT_WORKSPACE=/config/workspace
+    volumes:
+      - ./config:/config
+      - /home/pi/github/homelab:/home/coder/project
+    ports:
+      - 8444:8443
+    restart: unless-stopped
